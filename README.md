@@ -34,3 +34,13 @@ Classer les périodes de consommation électrique en deux catégories :
 - **Consommation faible**
 - **Consommation élevée**
 
+### Modèles de classification utilisés
+
+Nous avons testé **quatre modèles classiques** de machine learning :
+
+- **Régression Logistique** : simple, rapide, utilisée comme modèle de base (baseline)
+- **Arbre de Décision** : facilement interprétable, mais sensible au surapprentissage
+- **Forêt Aléatoire (Random Forest)** : modèle puissant, stable et robuste face au bruit
+- **k-plus proches voisins (k-NN)** : basé sur la distance, sensible à l’échelle des données
+
+
