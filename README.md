@@ -1,19 +1,36 @@
-Projet 1 : Spring Boot
-Projet : Gestion des Inscriptions
-Créer un formulaire d’inscription pour une école avec une base de données pour stocker les inscriptions.
-● Champs : Nom, Prénom, Email, Niveau d’études.
-● Un bouton "S’inscrire" qui enregistre l’inscription dans la base de données.
-● Une page affichant la liste des inscrits.
+# Projet 1 – Application Spring Boot : Gestion des Inscriptions
 
-App web en architecture MVC : 
-● Back-end (Java + Spring Boot)
-● Front-end (Thymeleaf)
-● Base de données (H2 Pérsistantes)
-● Interface de formulaire et affichage des données
+Ce projet consiste à créer une application web de gestion des inscriptions scolaires, avec formulaire et base de données intégrée.
 
-Projet 2 : AI : La prediction de la consommation électrique
-Un projet portant sur la prédiction de la consommation électrique d’un foyer.
-L’objectif principal est de classer les périodes de consommation en deux catégories :
-consommation faible
-consommation élevée en utilisant des algorithmes de classification.
+## Objectif
+Créer un formulaire d’inscription pour une école, avec une base de données pour stocker les données.
+
+### Fonctionnalités
+- Champs du formulaire :
+  - Nom
+  - Prénom
+  - Email
+  - Niveau d’études (L1, L2, L3, Master)
+- Bouton **"S’inscrire"** qui enregistre l’inscription dans la base de données.
+- Une page secondaire affiche dynamiquement la **liste des inscrits**.
+
+### Architecture (MVC)
+- **Back-end** : Java + Spring Boot
+- **Front-end** : Thymeleaf + Bootstrap
+- **Base de données** : H2 (persistante)
+- **Organisation** :
+  - Modèle : `Inscription.java`
+  - Contrôleur : `InscriptionController.java`
+  - Vue : `inscription.html`, `liste.html`
+
+---
+
+# Projet 2 – Prédiction de la Consommation Électrique (IA)
+
+Projet de classification basé sur l’apprentissage automatique, pour analyser la consommation d’électricité d’un foyer.
+
+## Objectif
+Classer les périodes de consommation électrique en deux catégories :
+- **Consommation faible**
+- **Consommation élevée**
 
