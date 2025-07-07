@@ -1,0 +1,47 @@
+# === Java / Maven / Spring Boot ===
+target/
+*.log
+*.jar
+*.war
+*.ear
+
+# === STS (Spring Tool Suite) ===
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === VS Code ===
+.vscode/
+
+# === Maven Wrapper ===
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+mvnw
+mvnw.cmd
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === Build Output ===
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
